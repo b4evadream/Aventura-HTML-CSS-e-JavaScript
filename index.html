@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Um dia a dia na escola</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/quarto.jpg" alt="">
+            <p>Um dia eu acordo, muito cansada e com sono e devo decidir, ir ou não ir para a escola.</p>
+            <button class="btn-proximo" data-proximo="1">Ir para a escola</button>
+            <button class="btn-proximo" data-proximo="2">Não ir para a escola</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você levanta e precisa decidir se vai se arrumar ou se vai voltar para a cama</p>
+            <button class="btn-proximo" data-proximo="3">Levantar e se arrumar</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para cama</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Sua mãe pergunta se você realmente quer faltar e não terá nada de importante na escola</p>
+            <button class="btn-proximo" data-proximo="5">Falar que tem uma prova e irá para a escola</button>
+            <button class="btn-proximo" data-proximo="6">Mentir sobre a sua prova para sua mãe</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Em casa, você se arruma, toma seu banho, escova os seus dentes e parte para a escola para começar seu dia.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para a escola</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/escola.png" alt="imagem voltando para cama e desitindo da escola">
+            <p>Você decide que estava cansada demais, mas sempre se pergunta o que teria
+                acontecido se você fosse para a escola.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Para ir a escola você deve pegar o ônibus (infelizmente ele estava cheio).</p>
+            <button class="btn-proximo" data-proximo="7">Entrar no ônibus e seguir seu caminho</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Sua mãe desconfia e briga com você para você ir para a escola.</p>
+            <button class="btn-proximo" data-proximo="8">Ir se arrumar para a aula.</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Na escola, você não vê nenhuma de suas amigas, então você precisa escolher, esperar elas ou ir para a sala?</p>
+            <button class="btn-proximo" data-proximo="9">Esperar suas amigas</button>
+            <button class="btn-proximo" data-proximo="10">Ir para a sala</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Se arrumando você tenta se atrasar ao máximo para naõ conseguir pegar o ônibus, porém sua mãe diz que irá te levar.</p>
+            <button class="btn-proximo" data-proximo="7">Entrar no carro</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Suas amigas não aparecem e o sinal toca, então você vai para a sala.</p>
+            <button class="btn-proximo" data-proximo="11">Ir para a sala</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Dentro da sala você espera pelas suas amigas e o começo de sua prova.</p>
+            <button class="btn-proximo" data-proximo="12">Esperar</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/saladeaula.jfif" alt="Sala de aula, esperando pela prova">
+            <p>Dentro da sala de aula, você espera suas amigas e o começo da sua prova.</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Suas amigas demoram demais e você começa a ficar preocupada, caso nenhuma delas apareça.</p>
+            <button class="btn-proximo" data-proximo="11">Continuar esperando.</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
